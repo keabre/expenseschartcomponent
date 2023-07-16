@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="expenseschartcomponent.css">
   <title>Expenses chart component</title>
 
   
@@ -15,20 +15,21 @@
       <section id="red-block-content">
         <div id="current-balance-content">
           <div id="current-balance-text">
-
+            <p>My balance</p>
           </div>
           <div id="current-balance-value">
-
+            <p>$921.48</p>
           </div>
         </div>
         <figure id="red-block-logo">
-
+          <!-- <figcaption>App Logo</figcaption> -->
+          <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
         </figure>
       </section>
       <div id="white-block-content">
         <section id="top-white-block-content">
           <div id="bar-chart-spending-heading">
-
+            <p>Spending - Last 7 days</p>
           </div>
           <figure>
             <figcaption>
@@ -36,7 +37,7 @@
             </figcaption>
             <div id="mon-bar-content">
               <div id="mon-bar-text">
-
+                <p>mon</p>
               </div>
               <div id="mon-bar">
 
@@ -47,7 +48,7 @@
             </div>
             <div id="tue-bar-content">
               <div id="tue-bar-text">
-
+                <p>tue</p>
               </div>
               <div id="tue-bar">
                 
@@ -58,7 +59,7 @@
             </div>
             <div id="wed-bar-content">
               <div id="wed-bar-text">
-
+                <p>wed</p>
               </div>
               <div id="wed-bar">
                 
@@ -69,7 +70,7 @@
             </div>
             <div id="thu-bar-content">
               <div id="thu-bar-text">
-
+                <p>thu</p>
               </div>
               <div id="thu-bar">
                 
@@ -80,7 +81,7 @@
             </div>
             <div id="fri-bar-content">
               <div id="fri-bar-text">
-
+                <p>fri</p>
               </div>
               <div id="fri-bar">
                 
@@ -91,7 +92,7 @@
             </div>
             <div id="sat-bar-content">
               <div id="sat-bar-text">
-
+                <p>sat</p>
               </div>
               <div id="sat-bar">
                 
@@ -102,7 +103,7 @@
             </div>
             <div id="sun-bar-content">
               <div id="sun-bar-text">
-
+                <p>sun</p>
               </div>
               <div id="sun-bar">
                 
@@ -118,19 +119,19 @@
         <section id="bottom-white-block-content">
           <div id="month-total-content">
             <div id="month-total-text">
-
+              <p>Total this month</p>
             </div>
             <div id="month-total-value">
-
+              <p>$478.33</p>
             </div>
 
           </div>
           <div id="month-last-month-relativity-content">
             <div id="month-last-month-relativity-value">
-
+              <p>+2.4%</p>
             </div>
             <div id="month-last-month-relativity-text">
-              
+              <p>from last month</p>
             </div>
 
           </div>
@@ -157,6 +158,6 @@
   +2.4%
   from last month -->
   
-
+    <script src="expenseschartcomponent.js"></script>
   </body>
 </html>
