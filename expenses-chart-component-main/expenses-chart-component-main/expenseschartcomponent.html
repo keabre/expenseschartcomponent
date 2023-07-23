@@ -7,38 +7,29 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="expenseschartcomponent.css">
   <title>Expenses chart component</title>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
   
   </head>
-  <body>
+  <body class="cream-bg">
     <main>
-      <section id="red-block-content">
-        <div id="current-balance-content">
-          <div id="current-balance-text">
-            <p>My balance</p>
-          </div>
-          <div id="current-balance-value">
-            <p>$921.48</p>
-          </div>
+      <section id="red-block-content" class="soft-red-bg border-curve block-stylings flex-horizontal space-between">
+        <div id="current-balance-content" class=" padding-left-element pale-orange-txt font">
+          <p id="current-balance-text" class="block regfontweight smallfontsize margin-block-start-zero margin-block-end-zero">My balance</p>
+          <p id="current-balance-value" class="padding-top-4-perc block bold bigtextsize margin-block-start-zero margin-block-end-zero">$921.48</p>
         </div>
         <figure id="red-block-logo">
           <!-- <figcaption>App Logo</figcaption> -->
           <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
         </figure>
       </section>
-      <div id="white-block-content">
+      <div id="white-block-content" class="pale-orange-bg border-curve block-stylings font">
         <section id="top-white-block-content">
-          <div id="bar-chart-spending-heading">
-            <p>Spending - Last 7 days</p>
-          </div>
-          <figure>
-            <figcaption>
-
-            </figcaption>
+          <p id="bar-chart-spending-heading" class="padding-top-4-perc dark-brown-txt bold bigtextsize margin-left-element">Spending - Last 7 days</p>
+          <figure id="bar-chart" class="grid">
             <div id="mon-bar-content">
-              <div id="mon-bar-text">
-                <p>mon</p>
-              </div>
+                <p id="mon-bar-text" class="medium-brown-txt regfontweight smallfontsize">mon</p>
               <div id="mon-bar">
 
               </div>
@@ -47,9 +38,7 @@
               </div>
             </div>
             <div id="tue-bar-content">
-              <div id="tue-bar-text">
-                <p>tue</p>
-              </div>
+              <p id="tue-bar-text" class="medium-brown-txt regfontweight smallfontsize">tue</p>
               <div id="tue-bar">
                 
               </div>
@@ -58,9 +47,9 @@
               </div>
             </div>
             <div id="wed-bar-content">
-              <div id="wed-bar-text">
-                <p>wed</p>
-              </div>
+              
+              <p id="wed-bar-text" class="medium-brown-txt regfontweight smallfontsize">wed</p>
+              
               <div id="wed-bar">
                 
               </div>
@@ -69,9 +58,9 @@
               </div>
             </div>
             <div id="thu-bar-content">
-              <div id="thu-bar-text">
-                <p>thu</p>
-              </div>
+              
+              <p id="thu-bar-text" class="medium-brown-txt regfontweight smallfontsize">thu</p>
+              
               <div id="thu-bar">
                 
               </div>
@@ -80,9 +69,9 @@
               </div>
             </div>
             <div id="fri-bar-content">
-              <div id="fri-bar-text">
-                <p>fri</p>
-              </div>
+              
+              <p id="fri-bar-text" class="medium-brown-txt regfontweight smallfontsize">fri</p>
+              
               <div id="fri-bar">
                 
               </div>
@@ -91,9 +80,9 @@
               </div>
             </div>
             <div id="sat-bar-content">
-              <div id="sat-bar-text">
-                <p>sat</p>
-              </div>
+              
+              <p id="sat-bar-text" class="medium-brown-txt regfontweight smallfontsize">sat</p>
+              
               <div id="sat-bar">
                 
               </div>
@@ -102,9 +91,9 @@
               </div>
             </div>
             <div id="sun-bar-content">
-              <div id="sun-bar-text">
-                <p>sun</p>
-              </div>
+              
+              <p id="sun-bar-text" class="medium-brown-txt regfontweight smallfontsize">sun</p>
+              
               <div id="sun-bar">
                 
               </div>
@@ -116,23 +105,23 @@
 
         </section>
         <hr>
-        <section id="bottom-white-block-content">
-          <div id="month-total-content">
-            <div id="month-total-text">
-              <p>Total this month</p>
-            </div>
-            <div id="month-total-value">
-              <p>$478.33</p>
-            </div>
+        <section id="bottom-white-block-content" class="flex-horizontal space-between">
+          <div id="month-total-content" class="padding-left-element">
+            
+              <p id="month-total-text" class="block margin-block-end-zero margin-block-start-zero medium-brown-txt smallfontsize">Total this month</p>
+            
+            
+              <p id="month-total-value" class="block margin-block-start-zero margin-block-end-zero dark-brown-txt bold">$478.33</p>
+            
 
           </div>
           <div id="month-last-month-relativity-content">
-            <div id="month-last-month-relativity-value">
-              <p>+2.4%</p>
-            </div>
-            <div id="month-last-month-relativity-text">
-              <p>from last month</p>
-            </div>
+            
+              <p id="month-last-month-relativity-value" class="text-align-right padding-right-element block margin-block-start-zero margin-block-end-zero bold dark-brown-txt smallfontsize">+2.4%</p>
+            
+            
+              <p id="month-last-month-relativity-text" class="text-align-right padding-right-element block margin-block-start-zero margin-block-end-zero medium-brown-txt smallfontsize">from last month</p>
+           
 
           </div>
         </section>

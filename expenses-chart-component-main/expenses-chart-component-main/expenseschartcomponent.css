@@ -1,0 +1,190 @@
+/* colours */
+
+.soft-red-bg {
+    background-color: hsl(10, 79%, 65%);
+}
+
+.cyan-bg {
+    background-color: hsl(186, 34%, 60%);
+}
+
+.dark-brown-txt {
+    color: hsl(25, 47%, 15%);
+}
+
+.medium-brown-txt {
+    color: hsl(28, 10%, 53%);
+}
+
+.pale-orange-bg {
+    background-color: hsl(33, 100%, 98%);
+}
+
+.pale-orange-txt {
+    color: hsl(33, 100%, 98%);
+}
+
+.cream-bg {
+    background-color: hsl(27, 66%, 92%);
+}
+
+/* fonts */
+
+.font {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.regfontweight {
+    font-weight: 400;
+}
+
+.smallfontsize {
+    font-size: 13px;
+}
+
+.bigtextsize {
+    font-size: 25px;
+}
+
+/* component layout */
+
+.bar-width {
+    width: 80%;
+}
+
+.component-width {
+    width: 40%;
+}
+
+.border-curve {
+    border-radius: 20px;
+}
+
+.padding-left-element {
+    padding-left: 5%;
+}
+
+.padding-right-element {
+    padding-right: 10%;
+}
+
+.margin-left-element {
+    margin-left: 5%;
+}
+
+.flex-horizontal {
+    display: flex;  
+    flex-direction: row;
+}
+
+.margin-block-start-zero {
+    margin-block-start: 0;
+}
+
+.margin-block-end-zero {
+    margin-block-end: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    min-height: 200px;
+    align-items: flex-end;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.block {
+    display: block;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.padding-top-4-perc {
+    padding-top: 4%;
+}
+
+.block-stylings {
+    width: 600px;
+}
+
+
+/* display */
+@media (max-width:1100px) {
+    #red-block-content {
+        height: 80px;
+        margin: 150px auto 0 auto;
+}
+    #white-block-content {
+        height: 380px;
+        margin: 0 auto 50px auto;
+}
+}
+
+
+@media (max-width:800px) {
+    #red-block-content {
+        height: 80px;
+        margin: 10px auto 0 auto;
+
+    }
+
+    #white-block-content {
+        height: 500px;
+        margin: 0 auto 50px auto;
+    }
+
+    .block-stylings {
+        width: 90%;
+    }
+}
+
+
+
+/* --------------------- RED BLOCK SECTION --------------------- */
+
+#red-block-content {
+    height: 80px;
+    margin: 150px auto 0 auto;
+
+}
+
+#current-balance-content {
+    align-self: center;
+}
+
+/* --------------------- TOP OF WHITE BLOCK SECTION --------------------- */
+
+#white-block-content {
+    height: 380px;
+    margin: 0 auto 50px auto;
+}
+
+
+
+
+/* --------------------- BOTTOM OF WHITE BLOCK SECTION --------------------- */
+
+#month-total-value {
+    font-size: 40px;
+}
+
+#month-last-month-relativity-content {
+    width: 200px;
+    align-self: center;
+}
+
+#bottom-white-block-content {
+    max-height: 70px;
+    min-height: 70px;
+}
+
