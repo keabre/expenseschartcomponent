@@ -12,6 +12,10 @@
     color: hsl(25, 47%, 15%);
 }
 
+.dark-brown-bg {
+    background-color: hsl(25, 47%, 15%);
+}
+
 .medium-brown-txt {
     color: hsl(28, 10%, 53%);
 }
@@ -62,6 +66,10 @@
 
 .border-curve {
     border-radius: 20px;
+}
+
+.border-curve-small {
+    border-radius: 5px;
 }
 
 .padding-left-element {
@@ -169,6 +177,22 @@
     margin: 0 auto 50px auto;
 }
 
+/* bars */
+
+.bar {
+    
+    width: 60%;
+    margin-left: calc(25% - 2px);
+
+}
+
+.barvaluestyles {
+    background-color: hsl(25, 47%, 15%);
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
 
 
 
